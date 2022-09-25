@@ -1,0 +1,46 @@
+body{
+	width: 1000px;
+	/* border: 1px solid black; */
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+img{
+display: block;
+max-width: 100%;
+}
+video{
+	max-width: 100%;
+}
+img:hover{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform: scale(2);
+	transition: 1s;
+	}
+
+table{
+	width: 100%;
+	height: 100%;
+	text-align: left;
+}
+.col1 { 
+	width: 25%; }
+
+td, th{
+	border: 1px solid black;
+	padding-left: 10px;
+	}
+li{
+	font-weight: 400;
+}
+.text{
+	padding-left: 10px;
+	font-weight: 600;
+	}
+
+
+
+ 
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link rel="stylesheet" href="css/normalize.css"> -->
+	<link rel="stylesheet" href="../css/style_bagreport.css">
+	<title>Баг репорт 001</title>
+</head>
+
+<body>
+	<header></header>
+	<main>
+
+		<div class="wrapper">
+			<div class="text">Баг Репорт 001</div>
+			<div class="table">
+				<table class="table-size">
+					<col class="col1">
+					<col span="1" class="coln">
+					<tr>
+						<th>Название программного продукта.</th>
+						<td><a title="Переход на главную страницу сайта Золотая бирка" href="https://zolotabirka.com.ua/"
+								target="_blank">zolotabirka.com.ua</a></td>
+					</tr>
+					<tr>
+						<th>Браузер, в котором проводились тесты.</th>
+						<td>Google Chrome Версия 105.0.5195.127 (Официальная сборка), (64 бит), Mozila 105.0 (64 бита)</td>
+					</tr>
+					<tr>
+						<th>Короткое описание</th>
+						<td>При клике на портфолио изображений нет перехода</td>
+					</tr>
+					<tr>
+						<th>Проект </th>
+						<td><a href="https://zolotabirka.com.ua/" target="_blank"></a>zolotabirka.com.ua</td>
+					</tr>
+					<tr>
+						<th>Номер версии</th>
+						<td>0.001</td>
+					</tr>
+					<tr>
+						<th>Важность:
+							<ul>
+								<li>S1 Блокирующая (Blocker)</li>
+								<li>S2 Критическая (Critical)</li>
+								<li>S3 Значительная (Major)</li>
+								<li>S4 Незначительная (Minor)</li>
+								<li>S5 Тривиальная (Trivial)</li>
+							</ul>
+						</th>
+						<td>S3 Значительная (Major)</td>
+					</tr>
+					<tr>
+						<th>Приоритет:
+							<ul>
+								<li>P1 Высокий (High)</li>
+								<li>P2 Средний (Medium)</li>
+								<li>P3 Низкий (Low)</li>
+							</ul>
+						</th>
+						<td>P1 Высокий (High)</td>
+					</tr>
+					<tr>
+						<th>Статус </th>
+						<td>Новый </td>
+					</tr>
+					<tr>
+						<th>Автор</th>
+						<td>Виктор Бирка</td>
+					</tr>
+					<tr>
+						<th>Назначен на </th>
+						<td>имя разработчика</td>
+					</tr>
+					<tr>
+						<th>Шаги воспроизведения</th>
+						<td>1. Открываем главную страницу сайта: <a href="https://zolotabirka.com.ua/">zolotabirka.com.ua</a>
+							--> Внизу страницы находим раздел: НАШІ КУХОННІ ПРОЕКТИ (см. копию экрана - выделено желтой рамкой)
+							<img src="../img/010.jpg" alt="Ooops">
+						</td>
+					</tr>
+					<tr>
+						<th>Фактический Результат </th>
+						<td>Запрос не прошел валидацию. (смотри копию экрана)
+							<img src="../img/001_no_link_img.jpg" alt="">
+						</td>
+					</tr>
+					<tr>
+						<th>Ожидаемый результат </th>
+						<td>Открыта соответствующая галлярея изображений.</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+	</main>
+	<footer></footer>
+</body>
+
+</html>

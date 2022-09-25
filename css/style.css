@@ -1,0 +1,41 @@
+body{
+	max-width: 1900px;
+	margin: 0 auto;
+	margin-top: 20px;
+	box-sizing: border-box;
+	font-size: 10px;
+}
+.table +top +top{
+	background-color: #fff;
+}
+table {
+	width: 100%; /* Ширина таблицы */
+	 }
+  td {
+	border: 1px solid #333; /* Параметры рамки */
+	padding: 10px; 
+	padding-right: 40px;
+	position: relative; /* Относительное позиционирование */
+  }
+  td a {
+	position: absolute; /* Абсолютное позиционирование */
+	left: 0; right: 0; /* По ширине ячейки */
+	top: 0; bottom: 0; /* По высоте ячейки */
+	background: #D71920; /* Цвет фона */
+	color: #fff; /* Цвет ссылок */
+	padding: 5px; /* Поля вокруг текста */
+
+  }
+   td a:hover{
+	background-color: silver;
+  }
+	
+	.green{
+		background-color: rgb(60, 248, 60);
+	}
+	.red{
+		background-color: red;
+	}
+
+
+
